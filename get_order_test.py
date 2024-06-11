@@ -3,7 +3,7 @@ import sender_stand_request
 # Импортируем модуль data, в котором определены данные, необходимые для HTTP-запросов.
 import data
 
-
+# Койфман Станислав, 17-я когорта — Финальный проект. Инженер по тестированию плюс
 def get_params(track):
     params = data.params.copy()
     params["t"] = track
